@@ -1,0 +1,13 @@
+Módulo 2 — Configurando o Git
+
+Instalando o Git
+O Git precisa ser instalado no computador para que possamos utilizar seus comandos no terminal.
+
+Passos básicos:
+1. Acessar o site oficial: https://git-scm.com  
+2. Baixar a versão compatível com o sistema operacional (Windows, macOS ou Linux).
+3. Executar o instalador e seguir as configurações padrão.
+4. Após a instalação, verificar se o Git está funcionando com o comando:
+
+```bash
+git --version
