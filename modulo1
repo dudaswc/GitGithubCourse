@@ -1,0 +1,17 @@
+## Módulo 1 — Entendendo o que é Git e GitHub
+
+### Introdução
+Git e GitHub são ferramentas utilizadas para **controle e gerenciamento de código** durante o desenvolvimento de projetos.
+
+### Controle de versão
+Controle de versão é um sistema que permite **registrar mudanças em arquivos ao longo do tempo**, possibilitando acompanhar alterações, recuperar versões antigas e colaborar com outras pessoas no mesmo projeto.
+
+### História do Git
+O Git foi criado em 2005 por **Linus Torvalds**, o mesmo criador do Linux.  
+Ele foi desenvolvido para gerenciar o desenvolvimento do kernel do Linux de forma rápida, segura e distribuída.
+
+### O que é Git
+Git é um **sistema de controle de versão distribuído** que permite rastrear mudanças no código, criar diferentes versões (branches) e trabalhar de forma organizada em projetos.
+
+### O que é GitHub
+GitHub é uma **plataforma online que hospeda repositórios Git**, permitindo armazenar código na nuvem, colaborar com outras pessoas, gerenciar projetos e compartilhar versões do código.
