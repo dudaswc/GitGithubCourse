@@ -1,6 +1,6 @@
-Módulo 2 — Configurando o Git
+## Módulo 2 — Configurando o Git
 
-Instalando o Git
+### Instalando o Git
 O Git precisa ser instalado no computador para que possamos utilizar seus comandos no terminal.
 
 Passos básicos:
