@@ -37,4 +37,3 @@ Este repositório pode conter:
 
 
 
-✨ Este repositório faz parte do meu processo contínuo de aprendizado em tecnologia.
