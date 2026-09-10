@@ -1,17 +1,21 @@
-## Módulo 1 — Entendendo o que é Git e GitHub
+# Módulo 1 — Entendendo o que é Git e GitHub
 
-### Introdução
-Git e GitHub são ferramentas utilizadas para **controle e gerenciamento de código** durante o desenvolvimento de projetos.
+## Introdução
 
-### Controle de versão
-Controle de versão é um sistema que permite **registrar mudanças em arquivos ao longo do tempo**, possibilitando acompanhar alterações, recuperar versões antigas e colaborar com outras pessoas no mesmo projeto.
+Git e GitHub são ferramentas utilizadas para controlar e gerenciar alterações em arquivos durante o desenvolvimento de projetos.
 
-### História do Git
-O Git foi criado em 2005 por **Linus Torvalds**, o mesmo criador do Linux.  
-Ele foi desenvolvido para gerenciar o desenvolvimento do kernel do Linux de forma rápida, segura e distribuída.
+## Controle de versão
 
-### O que é Git
-Git é um **sistema de controle de versão distribuído** que permite rastrear mudanças no código, criar diferentes versões (branches) e trabalhar de forma organizada em projetos.
+Controle de versão é um sistema que permite **registrar mudanças em arquivos ao longo do tempo**, acompanhar alterações, recuperar versões anteriores e colaborar com outras pessoas em um mesmo projeto.
 
-### O que é GitHub
-GitHub é uma **plataforma online que hospeda repositórios Git**, permitindo armazenar código na nuvem, colaborar com outras pessoas, gerenciar projetos e compartilhar versões do código.
+## História do Git
+
+O Git foi criado em 2005 por **Linus Torvalds**, também criador do Linux. Ele foi desenvolvido para gerenciar o desenvolvimento do kernel do Linux de forma rápida, segura e distribuída.
+
+## O que é Git
+
+Git é um **sistema de controle de versão distribuído** que permite rastrear mudanças, criar diferentes linhas de desenvolvimento (branches) e organizar a evolução de um projeto.
+
+## O que é GitHub
+
+GitHub é uma **plataforma online que hospeda repositórios Git**. Ela permite armazenar projetos remotamente, colaborar com outras pessoas, acompanhar alterações e compartilhar versões dos arquivos.
