@@ -1,6 +1,6 @@
 # Git & GitHub — Estudos
 
-Este repositório reúne os resumos e as práticas que desenvolvi durante o curso **Git e GitHub Básico**, realizado pela Udemy como parte da disciplina de **Soluções para Dispositivos Móveis I**, ministrada pelo professor Malfatti.
+Este repositório reúne os resumos e as práticas que desenvolvi durante o curso **Git e GitHub para iniciantes**, realizado pela Udemy como parte da disciplina de **Soluções para Dispositivos Móveis I**, ministrada pelo professor Malfatti.
 
 ## Objetivo
 
