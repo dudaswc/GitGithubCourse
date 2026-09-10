@@ -1,105 +1,84 @@
-## Módulo 5 — Ramificação (Branch)
+# Módulo 5 — Ramificação (Branch)
 
-### O que é uma branch e por que usar?
+## O que é uma branch e por que usar?
 
-Uma **branch** é uma linha independente de desenvolvimento dentro de um repositório.
+Uma **branch** é uma linha independente de desenvolvimento dentro de um repositório. Ela permite trabalhar em funcionalidades, correções ou experimentos sem alterar diretamente a versão principal.
 
-Ela permite trabalhar em novas funcionalidades, correções ou experimentos **sem alterar diretamente a versão principal do projeto**.
+Vantagens:
 
-Vantagens de usar branches:
+- Desenvolver funcionalidades separadamente.
+- Proteger a versão principal.
+- Facilitar o trabalho em equipe.
+- Organizar o fluxo de desenvolvimento.
 
-- Permite desenvolver funcionalidades separadamente
-- Evita quebrar o código da versão principal
-- Facilita o trabalho em equipe
-- Organiza melhor o fluxo de desenvolvimento
+A branch principal geralmente se chama **main**.
 
-A branch principal geralmente se chama **main** ou **master**.
+## Criando uma branch
 
----
-
-### Criando uma branch
-
-Para criar uma nova branch:
+Para criar uma branch:
 
 ```bash
 git branch nome-da-branch
-````
-
-Para criar e já mudar para a nova branch:
-
-```bash
-git checkout -b nome-da-branch
 ```
 
-Ver todas as branches do repositório:
+Para criar e acessar a nova branch:
+
+```bash
+git switch -c nome-da-branch
+```
+
+O comando equivalente em fluxos mais antigos é `git checkout -b nome-da-branch`.
+
+Para listar as branches:
 
 ```bash
 git branch
 ```
 
----
+## Movendo e deletando branches
 
-### Movendo e deletando branch
-
-Trocar para outra branch:
+Para trocar de branch:
 
 ```bash
-git checkout nome-da-branch
+git switch nome-da-branch
 ```
 
-Deletar uma branch:
+Para excluir uma branch local já integrada:
 
 ```bash
 git branch -d nome-da-branch
 ```
 
----
+## Entendendo o merge
 
-### Entendendo o merge
-
-O **merge** é utilizado para **juntar o histórico de duas branches**.
-
-Normalmente é usado quando uma funcionalidade foi desenvolvida em uma branch separada e precisa ser integrada à branch principal.
-
-Exemplo:
+O **merge** junta os históricos de duas branches. Para incorporar uma branch à principal:
 
 ```bash
-git checkout main
+git switch main
 git merge nome-da-branch
 ```
 
-Isso incorpora as alterações da branch no projeto principal.
+## Entendendo o rebase
 
----
-
-### Entendendo o rebase
-
-O **rebase** é outra forma de integrar mudanças entre branches.
-
-Ele reorganiza o histórico de commits, colocando os commits de uma branch **sobre outra**, criando um histórico mais linear.
-
-Exemplo:
+O **rebase** reaplica os commits de uma branch sobre outra base, criando um histórico mais linear:
 
 ```bash
-git checkout nome-da-branch
+git switch nome-da-branch
 git rebase main
 ```
 
----
+## Merge e rebase na prática
 
-### Merge e Rebase na prática
+**Merge:**
 
-**Merge**
+- Junta duas branches.
+- Preserva a estrutura do histórico.
+- Pode criar um commit de merge.
 
-* Junta duas branches
-* Mantém o histórico completo
-* Cria um commit de merge
+**Rebase:**
 
-**Rebase**
+- Reorganiza a base dos commits.
+- Deixa o histórico mais linear.
+- Reescreve commits e exige cuidado quando eles já foram compartilhados.
 
-* Reorganiza o histórico de commits
-* Deixa o histórico mais limpo
-* Não cria commit extra de merge
-
-Ambos são usados para integrar alterações entre branches, mas cada equipe pode escolher qual estratégia utilizar no fluxo de desenvolvimento.
-
+Cada equipe pode definir a estratégia mais adequada ao seu fluxo de trabalho.
